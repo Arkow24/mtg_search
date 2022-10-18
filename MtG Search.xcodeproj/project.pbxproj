@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C247EFC2885D15E00A7F218 /* BasketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C247EFB2885D15E00A7F218 /* BasketManager.swift */; };
+		6C49DFB227A478F700C28871 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49DFB127A478F700C28871 /* Card.swift */; };
+		6C49DFB527A47DAB00C28871 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6C49DFB427A47DAB00C28871 /* AlamofireImage */; };
+		6C49DFB727A9C22200C28871 /* CardsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49DFB627A9C22100C28871 /* CardsDetailsViewController.swift */; };
+		6CA90BD02899972100EB9580 /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA90BCF2899972100EB9580 /* UIControl+Extensions.swift */; };
+		6CA90BD22899974000EB9580 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA90BD12899974000EB9580 /* UIViewController+Extensions.swift */; };
+		6CA90BD628A43B0800EB9580 /* ApiConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA90BD528A43B0800EB9580 /* ApiConnection.swift */; };
 		6CDCB57A27A476C500331D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCB57927A476C500331D42 /* AppDelegate.swift */; };
 		6CDCB57C27A476C500331D42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCB57B27A476C500331D42 /* SceneDelegate.swift */; };
-		6CDCB57E27A476C500331D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCB57D27A476C500331D42 /* ViewController.swift */; };
+		6CDCB57E27A476C500331D42 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCB57D27A476C500331D42 /* SearchViewController.swift */; };
 		6CDCB58127A476C500331D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCB57F27A476C500331D42 /* Main.storyboard */; };
 		6CDCB58327A476C600331D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCB58227A476C600331D42 /* Assets.xcassets */; };
 		6CDCB58627A476C600331D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDCB58427A476C600331D42 /* LaunchScreen.storyboard */; };
+		6CDCB58E27A4775B00331D42 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDCB58D27A4775B00331D42 /* CardCollectionViewCell.swift */; };
+		6CFEFE2C28849D8F00FB1AAE /* WantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFEFE2B28849D8F00FB1AAE /* WantListViewController.swift */; };
+		6CFEFE2E2885CDCD00FB1AAE /* WantListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFEFE2D2885CDCD00FB1AAE /* WantListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C247EFB2885D15E00A7F218 /* BasketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketManager.swift; sourceTree = "<group>"; };
+		6C49DFB127A478F700C28871 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6C49DFB627A9C22100C28871 /* CardsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDetailsViewController.swift; sourceTree = "<group>"; };
+		6CA90BCF2899972100EB9580 /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
+		6CA90BD12899974000EB9580 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		6CA90BD528A43B0800EB9580 /* ApiConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnection.swift; sourceTree = "<group>"; };
 		6CDCB57627A476C400331D42 /* MtG Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MtG Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCB57927A476C500331D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CDCB57B27A476C500331D42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CDCB57D27A476C500331D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CDCB57D27A476C500331D42 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6CDCB58027A476C500331D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CDCB58227A476C600331D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CDCB58527A476C600331D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CDCB58727A476C600331D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDCB58D27A4775B00331D42 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		6CFEFE2B28849D8F00FB1AAE /* WantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantListViewController.swift; sourceTree = "<group>"; };
+		6CFEFE2D2885CDCD00FB1AAE /* WantListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C49DFB527A47DAB00C28871 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3245BF28932E420013245E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CDCB57927A476C500331D42 /* AppDelegate.swift */,
+				6CDCB57B27A476C500331D42 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6C3245C028932E830013245E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CDCB57F27A476C500331D42 /* Main.storyboard */,
+				6CDCB58227A476C600331D42 /* Assets.xcassets */,
+				6CDCB58427A476C600331D42 /* LaunchScreen.storyboard */,
+				6CDCB58727A476C600331D42 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C3245C128932EB20013245E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CDCB57D27A476C500331D42 /* SearchViewController.swift */,
+				6C49DFB627A9C22100C28871 /* CardsDetailsViewController.swift */,
+				6CFEFE2B28849D8F00FB1AAE /* WantListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C3245C228932ED20013245E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6C247EFB2885D15E00A7F218 /* BasketManager.swift */,
+				6CA90BD528A43B0800EB9580 /* ApiConnection.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6C49DFB027A478E100C28871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C49DFB127A478F700C28871 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6CA90BCD289994D200EB9580 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CDCB58D27A4775B00331D42 /* CardCollectionViewCell.swift */,
+				6CFEFE2D2885CDCD00FB1AAE /* WantListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CA90BCE2899971700EB9580 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6CA90BCF2899972100EB9580 /* UIControl+Extensions.swift */,
+				6CA90BD12899974000EB9580 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6CDCB56D27A476C400331D42 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +141,13 @@
 		6CDCB57827A476C400331D42 /* MtG Search */ = {
 			isa = PBXGroup;
 			children = (
-				6CDCB57927A476C500331D42 /* AppDelegate.swift */,
-				6CDCB57B27A476C500331D42 /* SceneDelegate.swift */,
-				6CDCB57D27A476C500331D42 /* ViewController.swift */,
-				6CDCB57F27A476C500331D42 /* Main.storyboard */,
-				6CDCB58227A476C600331D42 /* Assets.xcassets */,
-				6CDCB58427A476C600331D42 /* LaunchScreen.storyboard */,
-				6CDCB58727A476C600331D42 /* Info.plist */,
+				6CA90BCE2899971700EB9580 /* Extensions */,
+				6CA90BCD289994D200EB9580 /* Views */,
+				6C3245C228932ED20013245E /* Utils */,
+				6C3245C128932EB20013245E /* ViewControllers */,
+				6C3245C028932E830013245E /* Resources */,
+				6C3245BF28932E420013245E /* App */,
+				6C49DFB027A478E100C28871 /* Models */,
 			);
 			path = "MtG Search";
 			sourceTree = "<group>";
@@ -83,6 +168,9 @@
 			dependencies = (
 			);
 			name = "MtG Search";
+			packageProductDependencies = (
+				6C49DFB427A47DAB00C28871 /* AlamofireImage */,
+			);
 			productName = "MtG Search";
 			productReference = 6CDCB57627A476C400331D42 /* MtG Search.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 6CDCB56D27A476C400331D42;
+			packageReferences = (
+				6C49DFB327A47DAB00C28871 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 6CDCB57727A476C400331D42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +229,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDCB57E27A476C500331D42 /* ViewController.swift in Sources */,
+				6CA90BD628A43B0800EB9580 /* ApiConnection.swift in Sources */,
+				6C49DFB727A9C22200C28871 /* CardsDetailsViewController.swift in Sources */,
+				6CDCB58E27A4775B00331D42 /* CardCollectionViewCell.swift in Sources */,
+				6CDCB57E27A476C500331D42 /* SearchViewController.swift in Sources */,
+				6C49DFB227A478F700C28871 /* Card.swift in Sources */,
+				6CA90BD22899974000EB9580 /* UIViewController+Extensions.swift in Sources */,
+				6CFEFE2C28849D8F00FB1AAE /* WantListViewController.swift in Sources */,
+				6C247EFC2885D15E00A7F218 /* BasketManager.swift in Sources */,
 				6CDCB57A27A476C500331D42 /* AppDelegate.swift in Sources */,
+				6CA90BD02899972100EB9580 /* UIControl+Extensions.swift in Sources */,
 				6CDCB57C27A476C500331D42 /* SceneDelegate.swift in Sources */,
+				6CFEFE2E2885CDCD00FB1AAE /* WantListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +317,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -272,6 +374,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -291,7 +395,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MM9K397P2T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MtG Search/Info.plist";
+				INFOPLIST_FILE = "MtG Search/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +423,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MM9K397P2T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MtG Search/Info.plist";
+				INFOPLIST_FILE = "MtG Search/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C49DFB327A47DAB00C28871 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C49DFB427A47DAB00C28871 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C49DFB327A47DAB00C28871 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6CDCB56E27A476C400331D42 /* Project object */;
 }
